@@ -1,0 +1,20 @@
+1. Your path to the destination folder should be short
+
+2.Start XAMP and Heidi SQL
+
+3.Open PowerShell in the destination folder and type : php composer.phar install
+3.1 After that type : php bin/console doctrine:database:create --if-not-exists
+
+4.Fill the Model
+4.1 Delete the current model
+4.2 In the Terminal type : php bin/console doctrine:generate:entity
+
+5.Fill the Form
+5.1 Delete the current form
+5.2 In the Terminal type : php bin/console doctrine:generate:form AppBundle:Film
+5.3 Delete the last chapter of the generated form 
+
+6.Update the database , in the Terminal type : php bin/console doctrine:schema:update --force
+
+7.Fill the Controller
+
