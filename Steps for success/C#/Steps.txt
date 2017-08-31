@@ -1,0 +1,5 @@
+1.Start XAMP and SQL Server Management Studio
+2.Build the project
+3.Fill the Model [Required] [Key]
+4.Fill the Controller
+5.After every change restart your project / Your database is in Management Studio

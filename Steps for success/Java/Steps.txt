@@ -1,0 +1,21 @@
+1. Start Xampp and Heidi Sql
+
+2. Fill the Model
+2.1 Generate empty constructor and filled constructor with all properties
+2.2 Generate Getter and Setter 
+2.3 Put the Annotations
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+@Column (nullable = false)
+
+3.Fill the blindingModel (like the Model - without constructor,Id property,Id getter and setter)
+
+4.Fill the Controller
+4.1 За да се направи проверка при create и edit дали сме въвели правилните типове данни 
+
+if (blindingResult.hasErrors())
+		{
+			model.addAttribute("view","film/create");
+
+			return "base-layout";
+		}
