@@ -1,0 +1,9 @@
+1.Your path to the destination folder should be short 
+
+2.Start your MongoDB - C:\Program Files\MongoDB\Server\3.4\bin
+
+3.In your project destination folder open PowerShell and type - npm install
+
+4.Fill the Model
+
+5.Fill the Controller
