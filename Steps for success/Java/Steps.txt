@@ -1,7 +1,7 @@
 1. Start Xampp and Heidi Sql
 
 2. Fill the Model
-2.1 Generate empty constructor and filled constructor with all properties
+2.1 Generate empty constructor and  a filled constructor with all properties
 2.2 Generate Getter and Setter 
 2.3 Put the Annotations
 @Id
